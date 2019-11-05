@@ -55,6 +55,7 @@ telnet {之前设置的ip地址}
 [SW]stp patchcost-standard legacy
 ```
 因为STP默认开启,所以此时STP已打开
+
 ---
 ### VLAN配置
 创建vlan将端口加入
