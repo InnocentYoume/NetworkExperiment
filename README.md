@@ -132,25 +132,7 @@ ospf
 
 ---
 #### CHAP
-<br>验证方
-```
-[RA-Serial1/0]ppp authentication-mode chap
-[RA-Serial1/0]ppp chap user {对方用户名}
-[RA]local-user {自己用户名}
-[RA-luser-manage-ra]service-type ppp
-[RA-luser-manage-ra]password simple {密码}
-[RA-Serial1/0]shutdown
-[RA-Serial1/0]undo shutdwon
-```
-被验证方
-```
-[RA-Serial1/0]ppp chap user {对方用户名}
-[RA]local-user {自己用户名}
-[RA-luser-manage-ra]service-type ppp
-[RA-luser-manage-ra]password simple {密码}
-[RA-Serial1/0]shutdown
-[RA-Serial1/0]undo shutdwon
-```
+
 ---
 
 ### 防火墙
