@@ -54,10 +54,7 @@ telnet {之前设置的ip地址}
 [SW]stp mode rstp
 [SW]stp patchcost-standard legacy
 ```
-之后,在每个交换机打开STP即可,指令如下:
-```
-[SW]stp enable
-```
+因为STP默认开启,所以此时STP已打开
 ---
 ### VLAN配置
 创建vlan将端口加入
